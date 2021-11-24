@@ -1,0 +1,22 @@
+.myk-ava,.myk-btn,.myk-list,.myk-name,.myk-number,.myk-panel,.myk-panelhead,.myk-paneltitle,.myk-wa-icon,.myk-who{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}.myk-btn{position:absolute;right:20px;bottom:20px;background-color:#25d366;border-radius:50%;display:inline-block;padding:10px;height:30px;box-shadow:3px 3px 5px #ccc;cursor:pointer;transition:all .5s;margin:0;z-index:999}.myk-btn:hover{opacity:.7}.myk-panel{position:absolute;right:30px;bottom:100px;background-color:#ece5dd;width:300px;height:0;box-shadow:0 0 10px #075e54;overflow-y:hidden;border-radius:5px;transition:all .5s ease-out}.myk-panel .myk-list{background-color:#fff;overflow:hidden;display:block;padding:20px 10px;color:#333;text-decoration:none;font-family:Arial,Helvetica,sans-serif;border-bottom:2px solid #ccc}.myk-panel .myk-ava{width:40px;float:left;margin-right:20px}.myk-panelhead{background-color:#25d366;text-align:center;color:#fff;height:100px}.myk-paneltitle{font-weight:lighter}.myk-show{height:400px}.myk-panelbody{overflow-y:scroll;height:calc(100% - 100px)}@media only screen and (max-width:400px){.myk-panel{bottom:92px}}.myk-close{display:block;background-color:#075e54;cursor:pointer;opacity:.4;text-align:center;width:50px;transition:ease all .3s;overflow:hidden}.myk-close:hover{opacity:.6}
+.myk-wa{
+    position: fixed;
+    background-color: aqua;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    width: 348px;
+    direction: rtl;
+}
+.myk-btn{
+    height: 60px;
+    width: 60px;
+    left: 24px;
+    right: unset;
+}
+
+.myk-paneltitle{
+    font-size: 30px !important;
+    font-weight: bold !important;
+    line-height: 40px !important;
+}

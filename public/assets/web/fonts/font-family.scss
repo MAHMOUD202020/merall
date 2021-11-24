@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "Neue Einstellung";
+	font-display: swap;
+	src: local('Neue Einstellung Normal'), url('../fonts/neue-einstellung-normal.eot');
+	src: local('Neue Einstellung Normal'), url('../fonts/neue-einstellung-normal.woff2') format('woff2'),
+			url('../fonts/neue-einstellung-normal.woff') format('woff'),
+			url('../fonts/neue-einstellung-normal.ttf')  format('truetype');
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Neue Einstellung";
+	font-display: swap;
+	src: local('Neue Einstellung Bold'), url('../fonts/neue-einstellung-extra-bold.eot');
+	src: local('Neue Einstellung Bold'), url('../fonts/neue-einstellung-extra-bold.woff2') format('woff2'),
+			url('../fonts/neue-einstellung-extra-bold.woff') format('woff'),
+			url('../fonts/neue-einstellung-extra-bold.ttf')  format('truetype');
+	font-weight: 800;
+}

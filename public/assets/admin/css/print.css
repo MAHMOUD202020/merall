@@ -1,0 +1,161 @@
+body {
+    background-color: #efefef;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px !important;
+}
+
+.cover-content , .invoice , .logo  , .data , .card{
+    background-color: #e5dad9;
+}
+.logo {
+
+    padding: 40px 0!important;
+    text-align: center !important;
+}
+
+.logo img{
+    width: 200px;
+    /*position: relative;*/
+    /*right: -72px;*/
+}
+
+.data-content{
+
+    color: #9e1d22;
+
+    font-weight: bold;
+}
+.card {
+    border: none
+}
+
+table thead{
+    background-color: #9e1d22;
+    color: #d59f28;
+}
+
+table tbody tr{
+    border-bottom: 1px solid #b25154;
+}
+
+.totals tr td {
+    font-size: 13px
+}
+
+.footer{
+    position: relative;
+    display: block;
+    background-image: url("/assets/web/images/footer.png");
+    height: 268px;
+    background-size: 100%;
+    padding-top: 24px;
+    padding-right: 20px;
+}
+
+.footer-title{
+    background-color: #dca726;
+    width: 150px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #d5ad33;
+    color: #9e1d22;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.img-footer {
+
+    width: 323px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+.product-qty span {
+    font-size: 12px;
+    color: #dedbdb
+}
+
+
+@media print {
+
+    body{
+        background: unset !important;
+    }
+
+}
+.logo {
+
+    padding: 40px 0!important;
+    text-align: center !important;
+}
+
+.logo img{
+    width: 200px;
+    /*position: relative;*/
+    /*right: -72px;*/
+}
+
+.data-content{
+
+    color: #9e1d22;
+
+    font-weight: bold;
+}
+.card {
+    border: none
+}
+
+table thead{
+    background-color: #9e1d22;
+    color: #d59f28;
+}
+
+table tbody tr{
+    border-bottom: 1px solid #b25154;
+}
+
+.totals tr td {
+    font-size: 13px
+}
+
+.footer{
+    position: relative;
+    display: block;
+    background-image: url("/assets/web/images/footer.png");
+    height: 268px;
+    background-size: 100%;
+    padding-top: 24px;
+    padding-right: 20px;
+}
+
+.footer-title{
+    background-color: #dca726;
+    width: 150px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #d5ad33;
+    color: #9e1d22;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.img-footer {
+
+    width: 323px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*.footer span {*/
+/*    font-size: 12px*/
+/*}*/
+
+.product-qty span {
+    font-size: 12px;
+    color: #dedbdb
+}
+
+
+
